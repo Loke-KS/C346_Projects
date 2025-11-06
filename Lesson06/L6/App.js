@@ -49,12 +49,12 @@ const QuizApp = () => {
             />
             <QuizQuestion
                 source="https://tse4.mm.bing.net/th/id/OIP.FYLEVjosvKcyg58YUj34BgHaIX?rs=1&pid=ImgDetMain&o=7&rm=3"
-                question="What is this pokemon's name?"
+                question="What is this pokemon's type?"
                 setQ={setQ2}
-                name1="Fennekin"
-                name2="Charmander"
-                name3="Cyndaquil"
-                name4="Torchic"
+                name1="Fighting"
+                name2="Normal"
+                name3="Fire"
+                name4="Ground"
             />
             <QuizQuestion
                 source="https://images.wikidexcdn.net/mwuploads/wikidex/f/ff/latest/20170823183914/Rowlet.png"
@@ -67,12 +67,12 @@ const QuizApp = () => {
             />
             <QuizQuestion
                 source="https://staticg.sportskeeda.com/editor/2021/05/a0c2c-16221900581898-800.jpg"
-                question="What is this pokemon's name?"
+                question="Is this pokemon in its base form or evolved form?"
                 setQ={setQ4}
                 name1="Mewtwo"
-                name2="Umbreon"
-                name3="Eevee"
-                name4="Espeon"
+                name2="Eevee"
+                name3="Espeon"
+                name4="Umbreon"
             />
 
             <TouchableOpacity
@@ -87,7 +87,7 @@ const QuizApp = () => {
                     if (Q1 === "Plusle") {
                         correctCount += 1;
                     }
-                    if (Q2 === "Fennekin") {
+                    if (Q2 === "Fire") {
                         correctCount += 1;
                     }
                     if (Q3 === "Rowlet") {
